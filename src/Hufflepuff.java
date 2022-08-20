@@ -22,7 +22,7 @@ public class Hufflepuff extends Hogwarts {
     public void compare(Hufflepuff student) {
         int stats1 = work + patience + justice + loyalty;
         int stats2 = student.work + student.patience + student.justice + student.loyalty;
-        if (stats2 > stats1) System.out.println(student.name + "лучший Гриффиндорец, чем " + name);
+        if (stats2 > stats1) System.out.println(student.name + "лучший Пуффендуец, чем " + name);
         else System.out.println(name + " лучший Пуффендуец, чем " + student.name + ".");
     }
 }

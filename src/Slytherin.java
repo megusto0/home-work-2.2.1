@@ -22,7 +22,7 @@ public class Slytherin extends Hogwarts {
     public void compare(Slytherin student) {
         int stats1 = ambition + cunning + leadership + resourcefulness;
         int stats2 = student.ambition + student.cunning + student.leadership + student.resourcefulness;
-        if (stats2 > stats1) System.out.println(student.name + "лучший Гриффиндорец, чем " + name);
+        if (stats2 > stats1) System.out.println(student.name + "лучший Слизериец, чем " + name);
         else System.out.println(name + " лучший Слизериец, чем " + student.name + ".");
     }
 }

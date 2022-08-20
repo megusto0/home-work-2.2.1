@@ -22,7 +22,7 @@ public class Ravenclaw extends Hogwarts {
     public void compare(Ravenclaw student) {
         int stats1 = intelligence + learning + wisdom + wit;
         int stats2 = student.intelligence + student.learning + student.wisdom + student.wit;
-        if (stats2 > stats1) System.out.println(student.name + "лучший Гриффиндорец, чем " + name);
+        if (stats2 > stats1) System.out.println(student.name + "лучший Когтевранец, чем " + name);
         else System.out.println(name + " лучший Когтевранец, чем " + student.name + ".");
     }
 }
