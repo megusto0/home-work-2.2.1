@@ -25,8 +25,4 @@ public class Hufflepuff extends Hogwarts {
         if (stats2 > stats1) System.out.println(student.name + "лучший Гриффиндорец, чем " + name);
         else System.out.println(name + " лучший Пуффендуец, чем " + student.name + ".");
     }
-
-    public int getWork() {
-        return work;
-    }
 }
